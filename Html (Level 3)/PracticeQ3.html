@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question no 3</title>
+  </head>
+  <body>
+    <form action="/server">
+      <caption>
+        Registration Form
+      </caption>
+      <div>
+        <input
+          type="text"
+          name="fname"
+          id="firstname"
+          placeholder="First Name"
+        />
+        <input
+          type="text"
+          name="lname"
+          id="lastname"
+          placeholder="Last Name"
+          
+        />
+      </div>
+      <div>
+        <label for="gender">Please select gender</label>
+        <select name="gender" id="gender">
+          <option value="m" selected>Male</option>
+          <option value="f">Female</option>
+          <option value="o">Other</option>
+        </select>
+      </div>
+      Do you agree to all terms and condition?
+      <input type="checkbox" name="terms" id="terms" required />
+      <label for="terms">Yes,I agree.</label>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
