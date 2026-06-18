@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms In Html</title>
+  </head>
+  <body>
+    <form action="action">
+      <div>
+      <label for="username"> Username </label>
+      <input type="text" id="username" placeholder="Enter username" name="user" />
+      </div>
+      <div>
+      <label for="password"> Password </label>
+      <input type="password" id="password" placeholder="Enter Password" name="pass" />
+      </div>
+      <div>
+        <label for="age">Enter age</label>
+        <input type="number" placeholder="Age" id="age">
+      </div>
+      <!-- Number
+      <input type="number" />
+      <br />
+      Time
+      <input type="time" />
+      <br />
+      Color
+      <input type="color" /> -->
+      <button type="submit">Submit</button>
+      <button type="button">hello</button>
+      <button type="reset">reset</button>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+      <input type="text" placeholder="Search in youtube" name="search_query" id="youtubesearch">
+      <button type="submit" >Search</button>
+    </form>
+    <hr>
+    <form action="/server">
+      <input type="checkbox" name="age" id="age" checked>
+      <label for="age">I am 18+</label>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
